@@ -11,8 +11,9 @@
 
     <!-- delimitadores -->
     <?php
+    // Saídas usando tags via PHP
     echo "<i>Olá PHP!</i>";
-    echo 2023;
+    echo "<p>2023<p>";
     ?>
 
 </body>
