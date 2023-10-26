@@ -12,9 +12,9 @@
     const NOME = "Pedro";
     $idade = 20;
 
-    echo "<p>Parabéns <i>".NOME."</i> por ter completado <b>".$idade."</b> anos!</p>"
+    echo "<p>Parabéns <i>".NOME."</i> por ter completado <b>$idade</b> anos!</p>";
     ?>
 
-    <p>Parabéns <i><?=NOME?></i> por ter completado <b><?=$idade?><b> anos!</p>
+    <p>Parabéns <i><?=NOME?></i> por ter completado <b><?=$idade?></b> anos!</p>
 </body>
 </html>
