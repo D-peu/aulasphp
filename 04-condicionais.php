@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Condicionais</title>
+
+
+    <style>
+        .urgente{
+            color: red
+        }
+
+        .repor{
+            color: orange;
+        }
+
+        .normal{
+            color: green
+        }
+    </style>
 </head>
 <body>
     <h1>Condicional (if, else, elseif)</h1>
@@ -38,15 +53,15 @@ $qtdCritica = 2; // mínimo necessário
 
 <?php
 if( $qtdEmEstoque < $qtdCritica ){
-    echo "<p>É necessário repor!</p>";
+    echo "<p class='repor'>É necessário repor!</p>";
 
     // Condicional SIMPLES/ANINHADA
     if($qtdEmEstoque === 0){
-        echo "<p style='color: red'>URGENTE</p>";
+        echo "<p class='urgente'>URGENTE</p>";
     }
 
 } else {
-    echo "<p>Estoque normal</p>";
+    echo "<p class='normal'>Estoque normal</p>";
 }
 ?>
 
