@@ -38,9 +38,11 @@ do {
 
 <h3>for</h3>
 <?php
-$alunos = ["Jean", "Giuseppe", "Arthur"];
+$alunos = ["Jean", "Giuseppe", "Arthur", "Pedro", "Paola"];
 
-for( $i = 0; $i < 3; $i++ ){
+$quantidade = count($alunos);
+
+for( $i = 0; $i < $quantidade; $i++ ){
 ?>
     <p>Aluno: <?=$alunos[$i]?> </p>
 <?php
