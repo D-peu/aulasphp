@@ -1,3 +1,4 @@
+<?php include "recursos.php"; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,6 +22,7 @@
     </style>
 </head>
 <body>
+    <p> <?=ESCOLA?> </p>
     <h1>Condicional (if, else, elseif)</h1>
     <hr>
 
