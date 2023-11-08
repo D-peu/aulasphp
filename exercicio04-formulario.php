@@ -23,6 +23,14 @@
 				<!-- Faça aqui a programação
 				necessária para obter os dados de um array (criado por você)
 				e colocá-los (cada um) dentro de uma tag <option>. -->	
+
+                <?php
+                    $fabricantes = ["Samsung", "LG", "AOC", "TCL"];
+
+                    foreach( $fabricantes as $fabricante) {
+                ?>
+                        <option><?=$fabricante?></option>
+                <?php } ?>
 				
 			</select>
 		</p>
